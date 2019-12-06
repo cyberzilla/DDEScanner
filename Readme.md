@@ -18,9 +18,6 @@ Cara Register Online
 1. Hubungi Kontak yang tersedia via demo atau WA ke 085242703687
 2. Caranya sama seperti di atas namun URL path akan terisi otomatis sesuai dengan url path yang didaftarkan (membutuhkan koneksi internet)
 
-
-Contoh Url pemanggilan saat mengakses via browser
-
 Command yang tersedia:
 <pre>ddescanner:[blok_base64] -> tanpa kurung siku
 ddescanner:about
@@ -37,5 +34,8 @@ Contoh parameter base64 sebelum di encode:
 
 Command lengkap yang dipasang di web dari parameter diatas:
 <pre>ddescanner:P25hbWU9TmFtYUZpbGUuanBnJnRva2VuPTEyMzQ1fG1hbnVhbHwxfDE2MHwxNjA=</pre>
-  
+
+Contoh Url pemanggilan saat mengakses via browser:
+<br><code>`<a href="ddescanner:P25hbWU9TmFtYUZpbGUuanBnJnRva2VuPTEyMzQ1fG1hbnVhbHwxfDE2MHwxNjA=">Direct Scanner</a>`</code>
+
 script php untuk menerima request dari aplikasi telah disediakan di dalam file saveimage.php
