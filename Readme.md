@@ -19,13 +19,12 @@ Cara Register Online
 2. Caranya sama seperti di atas namun URL path akan terisi otomatis sesuai dengan url path yang didaftarkan (membutuhkan koneksi internet)
 
 
-Url pemanggilan saat mengakses via browser
+Contoh Url pemanggilan saat mengakses via browser
 
-contoh:
-
-1. ddescanner:[blok_base64] -> tanpa kurung siku
-2. ddescanner:about
-3. ddescanner:update
+Command yang tersedia:
+<pre>ddescanner:[blok_base64] -> tanpa kurung siku
+ddescanner:about
+ddescanner:update</pre>
 
 decode blok_base64 terdiri dari parameter yang dipisahkan tanda "|"
 index 0 berisi Special Param dan akan ditambahkan pada akhir urlPath yang didaftarkan sebelumnya, ini bisa diisi dengan nama file, akses token dan menggunakan metode $_GET saat berkomunikasi dengan PHP server
@@ -34,9 +33,9 @@ index 2 berisi Mode Scan, terdapat 4 mode yaitu Default By System (0), Color (1)
 index 3 & 4 berisi ukuran DPI, semakin tinggi maka ukuran file akan semakin besar 
 
 Contoh parameter base64 sebelum di encode:
-?name=NamaFile.jpg&token=12345|manual|1|160|160
+<pre>?name=NamaFile.jpg&token=12345|manual|1|160|160</pre>
 
-command lengkap yang dipasang di web dari parameter diatas:
-ddescanner:P25hbWU9TmFtYUZpbGUuanBnJnRva2VuPTEyMzQ1fG1hbnVhbHwxfDE2MHwxNjA=
-
+Command lengkap yang dipasang di web dari parameter diatas:
+<pre>ddescanner:P25hbWU9TmFtYUZpbGUuanBnJnRva2VuPTEyMzQ1fG1hbnVhbHwxfDE2MHwxNjA=</pre>
+  
 script php untuk menerima request dari aplikasi telah disediakan di dalam file saveimage.php
