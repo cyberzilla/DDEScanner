@@ -23,9 +23,9 @@ Url pemanggilan saat mengakses via browser
 
 contoh:
 
-ddescanner:[blok_base64] -> tanpa kurung siku
-ddescanner:about
-ddescanner:update
+1. ddescanner:[blok_base64] -> tanpa kurung siku
+2. ddescanner:about
+3. ddescanner:update
 
 decode blok_base64 terdiri dari parameter yang dipisahkan tanda "|"
 index 0 berisi Special Param dan akan ditambahkan pada akhir urlPath yang didaftarkan sebelumnya, ini bisa diisi dengan nama file, akses token dan menggunakan metode $_GET saat berkomunikasi dengan PHP server
@@ -33,7 +33,10 @@ index 1 berisi Mode Upload, terdapat 2 mode yaitu direct dan manual. Direct akan
 index 2 berisi Mode Scan, terdapat 4 mode yaitu Default By System (0), Color (1), Grayscale (2), Black White (3)
 index 3 & 4 berisi ukuran DPI, semakin tinggi maka ukuran file akan semakin besar 
 
-Contoh base64 sebelum di encode:
+Contoh parameter base64 sebelum di encode:
 ?name=NamaFile.jpg&token=12345|manual|1|160|160
+
+command lengkap yang dipasang di web dari parameter diatas:
+ddescanner:P25hbWU9TmFtYUZpbGUuanBnJnRva2VuPTEyMzQ1fG1hbnVhbHwxfDE2MHwxNjA=
 
 script php untuk menerima request dari aplikasi telah disediakan di dalam file saveimage.php
