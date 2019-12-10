@@ -20,7 +20,7 @@ How To Register DEMO Version:
 3. Press Check Button and wait until Name & Org become "DEMO"
 4. Insert "URL Path" to Send scanner result
 5. Now, Check Button Become "Register" Button
-6. Press Register Button and Accept If URL Path is corrent
+6. Press Register Button and Accept If URL Path is correct
 7. This Process will terminate Google Chrome
 8. Done
 
