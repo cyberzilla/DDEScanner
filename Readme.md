@@ -1,4 +1,4 @@
-Scanner 1.6.2
+Scanner 1.6.3
 =============
 
 SERIAL NUMBER: DEMO-DEMO-DEMO-DEMO-DEMO
