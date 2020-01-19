@@ -1,7 +1,7 @@
-Scanner 1.7.2
-=============
+DDEScanner 1.7.3
+================
 
-SERIAL NUMBER: DEMO-DEMO-DEMO-DEMO-DEMO
+SERIAL NUMBER: DEMO-DEMO-DEMO-DEMO-DEMO or TEST-TEST-TEST-TEST-TEST (for 14 days trial period)
 
 Cara Register Versi DEMO (Bisa Offline):
 1. Untuk Serial Number Demo, Maka Url Path akan diisi secara manual.
