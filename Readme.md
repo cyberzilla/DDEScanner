@@ -42,7 +42,10 @@ How To Register Online
 Command yang tersedia / Available Command:
 <pre>ddescanner:[blok_base64] -> tanpa kurung siku / without brackets
 ddescanner:about
-ddescanner:update</pre>
+ddescanner:update
+ddescanner:expire
+ddescanner:chromepath
+</pre>
 
 decode blok_base64 terdiri dari parameter yang dipisahkan tanda "|"
 1. index 0 berisi Special Param dan akan ditambahkan pada akhir urlPath yang didaftarkan sebelumnya, ini bisa diisi dengan nama file, akses token dan menggunakan metode $_GET saat berkomunikasi dengan PHP server
