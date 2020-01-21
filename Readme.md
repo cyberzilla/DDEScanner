@@ -1,4 +1,4 @@
-DDEScanner 1.7.3
+DDEScanner 1.7.4
 ================
 
 SERIAL NUMBER: DEMO-DEMO-DEMO-DEMO-DEMO or TEST-TEST-TEST-TEST-TEST (for 14 days trial period)
