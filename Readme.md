@@ -1,7 +1,7 @@
 DDEScanner 1.7.4
 ================
 
-SN for Demo  : DEMO-DEMO-DEMO-DEMO-DEMO
+SN for Demo  : DEMO-DEMO-DEMO-DEMO-DEMO<br>
 SN for Trial : TEST-TEST-TEST-TEST-TEST (for 14 days trial period)
 
 Cara Aktivasi Versi DEMO/TRIAL (Bisa Offline):
