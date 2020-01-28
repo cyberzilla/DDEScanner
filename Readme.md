@@ -4,26 +4,27 @@ DDEScanner 1.7.5
 SN DEMO     : DEMO-DEMO-DEMO-DEMO-DEMO <br>
 SN TRIAL    : TEST-TEST-TEST-TEST-TEST (for 14 days trial period)
 
-Cara Register Versi DEMO (Bisa Offline):
-1. Untuk Serial Number Demo, Maka Url Path akan diisi secara manual.
+Cara Aktivasi Versi DEMO/TRIAL (Bisa Offline):
+1. Untuk Serial Number Demo/Trial, Maka Url Path akan diisi secara manual.
 2. Masukkan Serial Demo pada Tab Activate.
-3. Tekan Tombol Check Hingga Name dan Organization terisi menjadi DEMO
-4. Masukkan URL Path (Url Api untuk mengirim hasil Scan)
+3. Tekan Tombol Check Hingga Name dan Organization terisi menjadi DEMO/TRIAL
+4. Masukkan URL Upload (Url Api untuk mengirim hasil Scan)
 5. Tombol Check Akan menjadi Tombol "Activate"
 6. Tekan Tombol Activate
-7. Muncul Alert untuk memastikan path data yang dimasukkan benar
+7. Akan Muncul Alert untuk memastikan path data yang dimasukkan benar
 8. Proses ini akan menghentikan google chrome, pastikan data di browser anda tersimpan, dan Tekan OK
 9. Selesai
 
-How To Register DEMO Version:
+How To Activate DEMO/TRIAL Version:
 1. Run Register.exe as administrator
-2. Insert DEMO serial Number in Activate Tab
-3. Press Check Button and wait until Name & Org become "DEMO"
-4. Insert "URL Path" to Send scanner result
-5. Now, Check Button Become "Activate" Button
+2. Insert DEMO/TRIAL serial Number in Activate Tab
+3. Press Check Button and wait until Name & Org become "DEMO/TRIAL"
+4. Insert "URL Upload" to Send scanner result
+5. Now, Press Check Button untill Become "Activate" Button
 6. Press Activate Button and Accept If URL Path is correct
 7. This Process will terminate Google Chrome
 8. Done
+
 
 Cara Register Online
 1. Masukkan Informasi yang dibutuhkan dalam form pendaftaran seperti Nama, Organisasi, dan URL path, dan pilih jenis lisensi yang anda butuhkan
