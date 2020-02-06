@@ -78,4 +78,4 @@ For example please look saveimage.php to get base64 from app / script php untuk 
 
 DEMO
 =
-Please see the **demo.html** or Visit https://ddescanner.dzakiyyah.com/1.7.5
+Please see the **demo.html** or Visit https://ddescanner.dzakiyyah.com
