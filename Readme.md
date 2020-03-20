@@ -31,11 +31,11 @@ How To Register?
 ================
 1. Open DDEScanner.exe and press Registration Button in "About" tab
 2. Fill the form registration info:
-	LicenseType	: Personal Use/ Business Use
-	PC Clients	: 1 - 10 / Unlimited
-	Name		: Your Name
-	Email		: Your Org
-	Url Upload	: Your Api URL (for sending scanner result)
+	1. LicenseType	: Personal Use/ Business Use
+	2. PC Clients	: 1 - 10 / Unlimited
+	3. Name		: Your Name
+	4. Email	: Your Email
+	5. Url Upload	: Your Api URL (for sending scanner result)
 3. Press "Submit" Button (This is require Internet Connection)
 4. After press "Submit" Button, DDEScanner will generated Two File
 	- DDEScanner[ID].ins (This is your Installation ID), you can keep this if some times you will reinstall or Update DDEScanner
@@ -47,7 +47,7 @@ How To Register?
 
 Available Command
 =================
-<pre>ddescanner:[blok_base64] -> tanpa kurung siku / without brackets
+<pre>ddescanner:[blok_base64] -> without brackets
 ddescanner:changescanner
 ddescanner:activate
 </pre>
