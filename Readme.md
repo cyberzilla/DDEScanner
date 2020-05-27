@@ -1,4 +1,4 @@
-DDEScanner 2.0.0
+DDEScanner 2.0.1
 ================
 
 How DDEScanner works?
@@ -15,7 +15,7 @@ DDEScanner trial version will be valid for 14 days for testing and evaluation. D
 
 How to install DDEScanner?
 ==========================
-1. Run Setup File "DDEScanner_v2.0.0.exe" as administrator.
+1. Run Setup File "DDEScanner_v2.0.1.exe" as administrator.
 2. Before pressing the "Next" button, you have to close all browsers that are running, even if you press the "Next" button it will automatically detect the browser that is running, especially Google Chrome then it will close
 3. After Next button pressed, It Will Show Installation Path and URL upload (for send scanned results), default path is where you run Setup File
 4. After filling the "Installation Path" and "Url Upload", press the "Next" button, and will display the Resume before the installation process, then press the "Install" button
@@ -31,14 +31,14 @@ How To Register?
 ================
 1. Open DDEScanner.exe and press Registration Button in "About" tab
 2. Fill the form registration info:
-	1. LicenseType	: Personal Use/ Business Use
-	2. PC Clients	: 1 - 10 / Unlimited
-	3. Name		: Your Name
-	4. Email	: Your Email
-	5. Url Upload	: Your Api URL (for sending scanner result)
+	LicenseType	: Personal Use/ Business Use
+	PC Clients	: 1 - 10 / Unlimited
+	Name		: Your Name
+	Email		: Your Email
+	Url Upload	: Your Api URL (for sending scanner result)
 3. Press "Submit" Button (This is require Internet Connection)
 4. After press "Submit" Button, DDEScanner will generated Two File
-	- DDEScanner[ID].ins (This is your Installation ID), you can keep this if some times you will reinstall or Update DDEScanner
+	- InstallationID.ins (This is your Installation ID), you can keep this if some times you will reinstall or Update DDEScanner
 	- HowToPay.txt (This is intruction how to buy a DDEScanner License)
 5. Complete Payment, Please confirm before.
 6. After Payment is complete, Our team will send your "Activation Code"
@@ -55,7 +55,7 @@ ddescanner:activate
 BASE64 blocks contain parameters which is separate by "|"
 =========================================================
 1. index 0 contain "special param" which will add to "URL path" such as "?filename=your_filename" or "?token=your_token" or anything you want
-2. index 1 contain "scan mode", ADFDuplex,ADFDuplexOCR,ADFSimplex,FLATDuplex,FLATSimplex
+2. index 1 contain "scan mode", ADFDuplex,ADFDuplexOCR,ADFSimplex,FLATDuplex,FLATSimplex,ANYSimplexJPG,ANYSimplexPNG
 3. index 2 contain "scan type", Color,Blackwhite,Grayscale
 4. index 3 contain "DPI Scale"
 5. index 4 contain "Paper Size", Auto,Letter,Legal,A4,A5,F4
