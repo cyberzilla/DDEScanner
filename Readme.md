@@ -1,4 +1,4 @@
-DDEScanner 2.0.4
+DDEScanner 2.0.5
 ================
 
 How DDEScanner works?
@@ -57,20 +57,20 @@ BASE64 blocks contain parameters which is separate by "|"
 1. index 0 contain "special param" which will add to "URL path" such as "?filename=your_filename" or "?token=your_token" or anything you want
 2. index 1 contain "scan mode", ADFDuplex,ADFDuplexOCR,ADFSimplex,FLATDuplex,FLATSimplex,ANYSimplexJPG,ANYSimplexPNG
 3. index 2 contain "scan type", Color,Blackwhite,Grayscale
-4. index 3 contain "DPI Scale"
+4. index 3 contain "DPI Scale:Image Quality" or only "DPI Scale"
 5. index 4 contain "Paper Size", Auto,Letter,Legal,A4,A5,F4
 
 The Parameters before encode with base64
 ========================================
-<pre>?name=FileName.pdf&token=12345|ADFDuplex|Color|300|Auto</pre>
+<pre>?name=FileName&token=12345|ADFDuplex|Color|300:70|Auto</pre>
 
 Full command after encode base64
 ================================
-<pre>ddescanner:P25hbWU9RmlsZU5hbWUucGRmJnRva2VuPTEyMzQ1fEFERkR1cGxleHxDb2xvcnwzMDB8QXV0bw==</pre>
+<pre>ddescanner:P25hbWU9RmlsZU5hbWUmdG9rZW49MTIzNDV8QURGRHVwbGV4fENvbG9yfDMwMDo3MHxBdXRv</pre>
 
 How To call command from browser
 ================================
-<br><code>`<a href="ddescanner:P25hbWU9RmlsZU5hbWUucGRmJnRva2VuPTEyMzQ1fEFERkR1cGxleHxDb2xvcnwzMDB8QXV0bw==">ADF Scanner (Duplex)</a>`</code>
+<br><code>`<a href="ddescanner:P25hbWU9RmlsZU5hbWUmdG9rZW49MTIzNDV8QURGRHVwbGV4fENvbG9yfDMwMDo3MHxBdXRv">ADF Scanner (Duplex)</a>`</code>
 
 
 The scan results will be PDF and sent with BASE64 code
