@@ -1,4 +1,4 @@
-DDEScanner 2.0.5
+DDEScanner 2.0.6
 ================
 
 How DDEScanner works?
@@ -50,6 +50,7 @@ Available Command
 <pre>ddescanner:[blok_base64] -> without brackets
 ddescanner:changescanner
 ddescanner:activate
+ddescanner:update
 </pre>
 
 BASE64 blocks contain parameters which is separate by "|"
