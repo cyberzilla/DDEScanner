@@ -1,4 +1,4 @@
-DDEScanner 2.0.6
+DDEScanner 2.0.7
 ================
 
 How DDEScanner works?
